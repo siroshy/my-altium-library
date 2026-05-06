@@ -1,3 +1,15 @@
+# Мусор от Altium
 History/
 __Previews/
-autoupdateLog.log
+
+# Лишние файлы 3D моделей
+*.a3d
+*.m3d
+*.cdw
+*.frw
+*.spw
+*.kdw
+
+# Логи и темпы
+*.log
+*.tmp
