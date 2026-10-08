@@ -12,7 +12,7 @@
 
 ## Изменения
 
-### slaim-kondr (08.10.2026)
+### slaim-kondr (08.10.2026) - Общие правки и +2 компонента
 - `[+]` Добавлено УГО `Inductance coil` в `.SCH/01 - Passive/Inductance.SchLib`
 - `[+]` Добавлено УГО `MQ-131` в `.SCH/02 - ICs/Sensors.SchLib`
 - `[+]` Добавлен корпус `MQ (6)` в `.PCB/Packages THD/Sensors/Sensors.PcbLib`
