@@ -12,6 +12,14 @@
 
 ## Изменения
 
+### slaim-kondr (08.10.2026)
+- `[+]` Добавлено УГО `Inductance coil` в `.SCH/01 - Passive/Inductance.SchLib`
+- `[+]` Добавлено УГО `MQ-131` в `.SCH/02 - ICs/Sensors.SchLib`
+- `[+]` Добавлен корпус `MQ (6)` в `.PCB/Packages THD/Sensors/Sensors.PcbLib`
+- `[+]` Добавлены строки для `MQ-131` и `Inductance coil` в `./OurLib.xlsx`
+- `[+]` Добавлен лист `03 - Индуктивность` в `./OurLib.xlsx`
+- `[^]` Исправлено форматирование текста в `Antennas.SchLib`, `QR.SchLib`, `Resistors.SchLib`, `ICs - Power.SchLib`, `ICs - Sensors.SchLib`, `LED.SchLib`, `Transistors.SchLib`, `Switchers.SchLib`, `Motors.SchLib`
+- `[^]` Исправлен слой Top Paste для `QFN-48 (5x5)` в `QFN.PcbLib`
 
 ### slaim-kondr (07.10.2026)
 - `[+]` Добавлено УГО `NMOSFETx2` в `.SCH/03 - Active/Transistors.SchLib` 
