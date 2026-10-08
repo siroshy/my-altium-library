@@ -12,6 +12,10 @@
 
 ## Изменения
 
+### slaim-kondr ()08.10.2026 - Правки втянутых компонентов
+- `[+]` Общие правки компоновки втянутых элементов
+--------------------------------------------------------------------------------
+
 ### slaim-kondr (08.10.2026) - Втягивание add_bat и add_component
 - `[+]` Добавлено УГО `Resistros_M` в `./SCH/01 - Passive/Resistors.SchLib`
 - `[+]` Добавлено УГО `Bat` в `./SCH/02 - ICs/ICs - Power.SchLib`
@@ -27,6 +31,7 @@
 - `[+]` Добавлены футпринты `DFN-8`, `SMT_PP02CT3_TDK` в `./PCB/Packages THD/ICs/DFN.PcbLib`
 - `[+]` Добавлены строки для `Resistros_M`, `Bat`, `BA` в `./OurLib.xslx`
 - `[+]` Добавлен лист `17 - Акустика` в `./OurLib.xlsx`
+--------------------------------------------------------------------------------
 
 ### slaim-kondr (08.10.2026) - Общие правки и +2 компонента
 - `[+]` Добавлено УГО `Inductance coil` в `./SCH/01 - Passive/Inductance.SchLib`
@@ -36,6 +41,7 @@
 - `[+]` Добавлен лист `03 - Индуктивность` в `./OurLib.xlsx`
 - `[^]` Исправлено форматирование текста в `Antennas.SchLib`, `QR.SchLib`, `Resistors.SchLib`, `ICs - Power.SchLib`, `ICs - Sensors.SchLib`, `LED.SchLib`, `Transistors.SchLib`, `Switchers.SchLib`, `Motors.SchLib`
 - `[^]` Исправлен слой Top Paste для `QFN-48 (5x5)` в `QFN.PcbLib`
+--------------------------------------------------------------------------------
 
 ### slaim-kondr (07.10.2026)
 - `[+]` Добавлено УГО `NMOSFETx2` в `./SCH/03 - Active/Transistors.SchLib` 
