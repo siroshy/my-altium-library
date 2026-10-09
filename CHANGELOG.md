@@ -12,8 +12,9 @@
 
 ## Изменения
 
-### slaim-kondr (09.10.2026) - Правка кнопки по сетке
+### slaim-kondr (09.10.2026) - Правка футпринтов и УГО
 - `[+]` Исправлено УГО `Button` в `./SCH/04 - EMechanical/Switchers.SchLib`
+- `[+]` Исправлен футпринт `CSMD_0402` в `./PCB/Packages SMD/CompSMD.PcbLib`
 
 ### slaim-kondr (08.10.2026) - Добавление корпуса катушке
 - `[+]` Добавлен футпринт для `Inductance coil` в `./OurLib.xslx`
