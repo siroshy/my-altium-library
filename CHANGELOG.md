@@ -12,16 +12,50 @@
 
 ## Изменения
 
+### slaim-kondr (09.10.2026) - Правка футпринтов и УГО
+- `[+]` Исправлено УГО `Button` в `./SCH/04 - EMechanical/Switchers.SchLib`
+- `[+]` Исправлен футпринт `CSMD_0402` в `./PCB/Packages SMD/CompSMD.PcbLib`
 
-### slaim-kondr (07.09.2026) - Добавление IRF5850
-- `[+]` Добавлено УГО `NMOSFETx2` в `.SCH/03 - Active/Transistors.SchLib`
-- `[+]` Добавлен футпринт `TSOP-6` в `.PCB/Packages SMD/SO-Packages.PcbLib`
-- `[+]` Добавлена строка для `NMOSFETx2` в `./OurLib.xlsx`
+### slaim-kondr (08.10.2026) - Добавление корпуса катушке
+- `[+]` Добавлен футпринт для `Inductance coil` в `./OurLib.xslx`
 --------------------------------------------------------------------------------
 
-### slaim-kondr (07.10.2026) - Добавление УГО BAT54C 
-- `[+]` Добавлено УГО `Diodx2` в `.SCH/01 - Passive/Diodes.SchLib`
-- `[+]` Добавлена строка для `Diodx2` в `./OurLib.xlsx`
+### slaim-kondr (08.10.2026) - Правки втянутых компонентов
+- `[+]` Общие правки компоновки втянутых элементов
+--------------------------------------------------------------------------------
+
+### slaim-kondr (08.10.2026) - Втягивание add_bat и add_component
+- `[+]` Добавлено УГО `Resistros_M` в `./SCH/01 - Passive/Resistors.SchLib`
+- `[+]` Добавлено УГО `Bat` в `./SCH/02 - ICs/ICs - Power.SchLib`
+- `[+]` Добавлено УГО `BA` в `./SCH/03 - Active/BA.SchLib`
+- `[+]` Добавлено УГО `BME-280` в `./SCH/02 - ICs/ICs - Sensors.SchLib`
+- `[+]` Добавлено УГО `OPA381` в `./SCH/02 - ICs/ICs - Logic.SchLib`
+- `[+]` Добавлено УГО `XC6219`, `TP4065`, `MT3608`, `AP2112K` в `./SCH/02 - ICs/ICs - Power.SchLib`
+- `[+]` Добавлено УГО `Buzzer` в `./SCH/03 - Active/BA.SchLib`
+- `[+]` Добавлены УГО `BPW34`, `LED_RGB`, `SFH 4550` в `./SCH/03 - Active/LED.SchLib`
+- `[+]` Добавлены футпринты `LED_RGB`, `Hinged_Diod` в `./PCB/Packages SMD/LEDs.PcbLib`
+- `[+]` Добавлен футпринт `SOT-23-6` в `./PCB/Packages SMD/SOT.PcbLib`
+- `[+]` Добавлены футпринты `SOP-8`, `SOIC-8` в `./PCB/Packages SMD/SO-Packages.PcbLib`
+- `[+]` Добавлены футпринты `DFN-8`, `SMT_PP02CT3_TDK` в `./PCB/Packages THD/ICs/DFN.PcbLib`
+- `[+]` Добавлены строки для `Resistros_M`, `Bat`, `BA` в `./OurLib.xslx`
+- `[+]` Добавлен лист `17 - Акустика` в `./OurLib.xlsx`
+--------------------------------------------------------------------------------
+
+### slaim-kondr (08.10.2026) - Общие правки и +2 компонента
+- `[+]` Добавлено УГО `Inductance coil` в `./SCH/01 - Passive/Inductance.SchLib`
+- `[+]` Добавлено УГО `MQ-131` в `./SCH/02 - ICs/Sensors.SchLib`
+- `[+]` Добавлен корпус `MQ (6)` в `./PCB/Packages THD/Sensors/Sensors.PcbLib`
+- `[+]` Добавлены строки для `MQ-131` и `Inductance coil` в `./OurLib.xlsx`
+- `[+]` Добавлен лист `03 - Индуктивность` в `./OurLib.xlsx`
+- `[^]` Исправлено форматирование текста в `Antennas.SchLib`, `QR.SchLib`, `Resistors.SchLib`, `ICs - Power.SchLib`, `ICs - Sensors.SchLib`, `LED.SchLib`, `Transistors.SchLib`, `Switchers.SchLib`, `Motors.SchLib`
+- `[^]` Исправлен слой Top Paste для `QFN-48 (5x5)` в `QFN.PcbLib`
+--------------------------------------------------------------------------------
+
+### slaim-kondr (07.10.2026)
+- `[+]` Добавлено УГО `NMOSFETx2` в `./SCH/03 - Active/Transistors.SchLib` 
+- `[+]` Добавлено УГО `Diodx2` в `./SCH/01 - Passive/Diodes.SchLib`
+- `[+]` Добавлен футпринт `TSOP-6` в `./PCB/Packages SMD/SO-Packages.PcbLib`
+- `[+]` Добавлена строка для `Diodx2` и `NMOSFETx2`в `./OurLib.xlsx`
 --------------------------------------------------------------------------------
 
 ### siroshy (29.05.2026) - Правки по предыдущим изменениям + изменение структуры футпринтов
