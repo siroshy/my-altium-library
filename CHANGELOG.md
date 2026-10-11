@@ -11,6 +11,15 @@
 Добавлять изменение стоит в начало списка
 
 ## Изменения
+
+### siroshy (11.10.2026) - Правки по предыдущим изменениям + изменение структуры футпринтов
+- `[^]` Исправлено УГО `OPA381` в `\SCH\02 - ICs\ICs - Logic.SchLib`
+- `[^]` Исправлено УГО `NMOSFETx2` в `./SCH/03 - Active/Transistors.SchLib`
+- `[^]` Исправлено УГО `Diodx2` с переим. в `Diod x2 com 3` в `./SCH/01 - Passive/Diodes.SchLib
+- `[^]` Cтроки для `Diodx2` и `NMOSFETx2` переименованы по партнамберам `./OurLib.xlsx`
+- `[+]` Файл `./SCH/03 - Active/BA.SchLib` переименован в `Sound Emmiters.SchLib`
+
+
 ### slaim-kondr (10.10.2026) - Правки УГОшек питания
 - `[^]` Исправлена компановка УГО компонентов `AP2112K`, `MT3608`, `TP4056`, `XC6219` в `./SCH/02 - ICs/ICs - Power.SchLib`
 
@@ -36,7 +45,7 @@
 --------------------------------------------------------------------------------
 
 ### slaim-kondr (08.10.2026) - Втягивание add_bat и add_component
-- `[+]` Добавлено УГО `Resistros_M` в `./SCH/01 - Passive/Resistors.SchLib`
+- `[+]` Добавлено УГО `Resistor_M` в `./SCH/01 - Passive/Resistors.SchLib`
 - `[+]` Добавлено УГО `Bat` в `./SCH/02 - ICs/ICs - Power.SchLib`
 - `[+]` Добавлено УГО `BA` в `./SCH/03 - Active/BA.SchLib`
 - `[+]` Добавлено УГО `BME-280` в `./SCH/02 - ICs/ICs - Sensors.SchLib`
